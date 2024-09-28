@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello from the NASA API backend!');
 });
 
-// Example route for NeoWs (add this if you want)
+// NeoWs route
 app.get('/api/neo', (req, res) => {
   res.json({ message: "This is the NeoWs endpoint" });
 });
